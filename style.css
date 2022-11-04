@@ -1,0 +1,95 @@
+#mainMenu li {
+	text-align: center;
+	position:relative;
+	display:block;
+	width:120px;
+	float:left;
+	margin-left:2px;
+	border:0px solid #000;
+	box-shadow: 0px 5px 10px #FFC300;
+	padding: 1em;
+	font-size: 20px;
+	font-weight: bold;
+	background-color:#3333ff;
+	color:  #cc0000;
+	border-radius: 10px;
+}
+ul li a{
+	text-decoration: none;
+	color: #ffff66;
+}
+ul{
+	
+
+}
+#mainMenu{margin-left: 10em;
+font-family: Comic Sans MS;}
+h1{
+	font-family: Elephant;
+}
+ul li:hover{
+	background: #ff8080;
+	color: #fff;
+	border-radius: 25px;
+	box-shadow: 0px 5px 10px #00ff55;
+}
+ul li a:hover{
+	color: #ffffff;
+	box-shadow: 0px 5px 10px #00ff55;
+}
+
+li ul{
+	display: none;
+	position: absolute;
+	margin: 0px;
+	padding: 1px;
+	 	
+	
+}
+#mainMenu li ul li{
+	width: 150px;
+	border-top: none;
+	font-size: smaller;
+	top: 30px;
+	left: -20px;
+}
+
+#mainMenu li:hover ul{
+	display: Block;
+}
+
+input{
+	padding:5px;
+}
+
+button{
+	padding: 10px;
+	background: #000066;
+	color: #fffff;
+	box-shadow: 0px 5px 10px #00ff55;
+	
+	border-radius: 50px;
+}
+button a{
+	color: #ffffff;
+	text-decoration: none;
+	
+
+}
+button:hover{
+	color:#000066;
+	background:#990000	;
+	font-weight: bold;
+border-radius: 50px;
+}
+button a:hover{
+	color: #000066;
+	font-weight: bold;
+}
+
+#pic{
+	border-radius:100px;
+}
+#div{
+	color: #666699;
+}
